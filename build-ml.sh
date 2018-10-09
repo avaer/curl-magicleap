@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Download and build libcurl, openssl and zlib for Android using Crystax NDK r7
 # Must be run on 32 bit Linux as the Crystax r7 NDK doesn't support 64 bit hosts
 # Tested on Ubuntu 14.04
